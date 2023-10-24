@@ -1,10 +1,66 @@
-div#home{
-    background-image: url(./images/markus-winkler-7iSEHWsxPLw-unsplash.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-div h1{
-    padding-right: 129px;
+body{
+    background-color: black;
+}
+.hero-section{
+    height: 400px;
+    width: 100%;
+    background-image: url("./images/background.png");
+    /* opacity: 0.9; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.quote p{
+    width: 70%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: white;
+    
+}
+.content{
+    width: 80%;
+    padding-top: 60px;
+    
+}
+
+.heading{
+    text-align: center;
+}
+
+.box-content{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+
+.box{
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid black; */
+    text-align: center;
+
+}
+
+.footer{
+    background-color: black;
+
+}
+.footer>.heading{
+    color: rgb(252, 133, 36);
+    padding-top: 20px;
+}
+
+.footer>.content{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-left: 262px;
+    padding-bottom: 50px;
 }
