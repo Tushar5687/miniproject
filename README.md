@@ -1,4 +1,4 @@
 # miniproject
-Team Members-Tushar,Udit,Sudhanshu
+Team Members-Tushar,Udit,Sudhanshu gupta
 
 
